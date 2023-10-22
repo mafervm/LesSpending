@@ -1,0 +1,310 @@
+.sign-in {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .sign-in .overlap-wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(
+      180deg,
+      rgb(167.16, 197.62, 170.2) 7.69%,
+      rgb(221.14, 236.94, 222.72) 71.67%,
+      rgb(255, 255, 255) 98.41%
+    );
+    max-width: 1850px; 
+    height: 1024px;
+}
+
+  
+.sign-in .overlap {
+  position: relative;
+  width: 1009px;
+  height: 823px;
+  margin: 101px auto 0;
+  background-color: #ffffff;
+  border-radius: 20px;
+  border: 1px solid;
+  border-color: #000000;
+}
+
+  
+  .sign-in .text-wrapper {
+    position: absolute;
+    width: 138px;
+    top: 132px;
+    left: 97px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in .rectangle {
+    position: absolute;
+    width: 392px;
+    height: 50px;
+    top: 167px;
+    left: 97px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in .div {
+    position: absolute;
+    width: 138px;
+    top: 223px;
+    left: 97px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in .p {
+    position: absolute;
+    width: 392px;
+    top: 665px;
+    left: 97px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in .rectangle-2 {
+    position: absolute;
+    width: 392px;
+    height: 50px;
+    top: 258px;
+    left: 97px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in .overlap-group {
+    position: absolute;
+    width: 392px;
+    height: 50px;
+    top: 622px;
+    left: 98px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in .text-wrapper-2 {
+    position: absolute;
+    width: 392px;
+    top: 8px;
+    left: -2px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in .image {
+    position: absolute;
+    width: 19px;
+    height: 26px;
+    top: 12px;
+    left: 45px;
+  }
+  
+  .sign-in .overlap-2 {
+    position: absolute;
+    width: 392px;
+    height: 50px;
+    top: 531px;
+    left: 98px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in .img {
+    position: absolute;
+    width: 44;
+    height: 30px;
+    top: 10px;
+    left: 30px;
+  }
+  
+  .sign-in .overlap-3 {
+    position: absolute;
+    width: 392px;
+    height: 50px;
+    top: 440px;
+    left: 98px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .sign-in .text-wrapper-3 {
+    position: absolute;
+    width: 392px;
+    top: 9px;
+    left: -2px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in .image-2 {
+    position: absolute;
+    width: 21px;
+    height: 22px;
+    top: 15px;
+    left: 51px;
+  }
+  
+  .sign-in .image-3 {
+    position: absolute;
+    width: 50px;
+    height: 50;
+    top: 18px;
+    left: 934px;
+  }
+  
+  .sign-in .text-wrapper-4 {
+    position: absolute;
+    width: 422px;
+    height: 65px;
+    top: 49px;
+    left: 82px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in .group {
+    position: absolute;
+    width: 394px;
+    height: 38px;
+    top: 383px;
+    left: 97px;
+  }
+  
+  .sign-in .overlap-group-2 {
+    position: relative;
+    width: 392px;
+    height: 38px;
+  }
+  
+  .sign-in .line {
+    position: absolute;
+    width: 392px;
+    height: 1px;
+    top: 18px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .sign-in .rectangle-3 {
+    position: absolute;
+    width: 59px;
+    height: 38px;
+    top: 0;
+    left: 166px;
+    background-color: #ffffff;
+  }
+  
+  .sign-in .text-wrapper-5 {
+    position: absolute;
+    width: 12px;
+    top: 0;
+    left: 190px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .sign-in .text-wrapper-6 {
+    position: absolute;
+    top: 715px;
+    left: 205px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+    text-decoration: underline;
+  }
+  
+  .sign-in .image-4 {
+    position: absolute;
+    width: 409px;
+    height: 574px;
+    top: 123px;
+    left: 540px;
+    object-fit: cover;
+  }
+  
+  .sign-in .div-wrapper {
+    position: absolute;
+  width: 193px;
+  height: 41px;
+  top: 332px;
+  left: 197px;
+  background-color: #a7c6aa;
+  border: 2px solid;
+  border-color: #000000;
+  }
+  
+  .sign-in .text-wrapper-7 {
+    position: absolute;
+    width: 145px;
+    top: 4px;
+    left: 22px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .sign-in .text-wrapper-8 {
+    position: absolute;
+    width: 145px;
+    top: 9px;
+    left: 22px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  

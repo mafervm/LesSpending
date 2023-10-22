@@ -1,0 +1,560 @@
+.HOME-lesspending {
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .HOME-lesspending .div {
+    background-color: #ffffff;
+    width: 1440px;
+    height: 2737px;
+    position: relative;
+  }
+  
+  .HOME-lesspending .overlap {
+    position: absolute;
+    width: 1440px;
+    height: 62px;
+    top: 587px;
+    left: 0;
+  }
+  
+  .HOME-lesspending .line {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    top: 30px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .HOME-lesspending .group {
+    position: absolute;
+    width: 953px;
+    height: 62px;
+    top: 0;
+    left: 225px;
+  }
+  
+  .HOME-lesspending .overlap-group {
+    position: relative;
+    height: 62px;
+  }
+  
+  .HOME-lesspending .rectangle {
+    position: absolute;
+    width: 240px;
+    height: 62px;
+    top: 0;
+    left: 0;
+    background-color: #a7c6aa;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .rectangle-2 {
+    position: absolute;
+    width: 240px;
+    height: 62px;
+    top: 0;
+    left: 238px;
+    background-color: #a7c6aa;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .rectangle-3 {
+    position: absolute;
+    width: 240px;
+    height: 62px;
+    top: 0;
+    left: 475px;
+    background-color: #a7c6aa;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .rectangle-4 {
+    position: absolute;
+    width: 240px;
+    height: 62px;
+    top: 0;
+    left: 713px;
+    background-color: #a7c6aa;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .text-wrapper {
+    position: absolute;
+    width: 109px;
+    height: 23px;
+    top: 18px;
+    left: 291px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .HOME-lesspending .text-wrapper-2 {
+    position: absolute;
+    width: 125px;
+    height: 27px;
+    top: 16px;
+    left: 521px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-3 {
+    position: absolute;
+    width: 138px;
+    height: 27px;
+    top: 16px;
+    left: 751px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-4 {
+    position: absolute;
+    width: 97px;
+    height: 27px;
+    top: 16px;
+    left: 1009px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .image {
+    left: 400px;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 19px;
+  }
+  
+  .HOME-lesspending .img {
+    left: 635px;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 19px;
+  }
+  
+  .HOME-lesspending .image-2 {
+    left: 870px;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 19px;
+  }
+  
+  .HOME-lesspending .image-3 {
+    left: 1118px;
+    position: absolute;
+    width: 50px;
+    height: 25px;
+    top: 19px;
+  }
+  
+  .HOME-lesspending .overlap-2 {
+    position: absolute;
+    width: 1440px;
+    height: 201px;
+    top: 2536px;
+    left: 0;
+    background-color: #a7c5aa;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .text-wrapper-5 {
+    position: absolute;
+    width: 161px;
+    height: 59px;
+    top: 16px;
+    left: 166px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 32px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .lesspending-gmail {
+    position: absolute;
+    width: 421px;
+    height: 43px;
+    top: 75px;
+    left: 166px;
+    font-family: "Kiwi Maru-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .span {
+    font-family: "Kiwi Maru-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+  }
+  
+  .HOME-lesspending .p {
+    position: absolute;
+    height: 35px;
+    top: 129px;
+    left: 160px;
+    font-family: "Kiwi Maru-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .element {
+    height: 119px;
+    top: 76px;
+    left: 1195px;
+    position: absolute;
+    width: 243px;
+  }
+  
+  .HOME-lesspending .line-2 {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    top: 1119px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .HOME-lesspending .line-3 {
+    position: absolute;
+    width: 1440px;
+    height: 1px;
+    top: 1831px;
+    left: 0;
+    object-fit: cover;
+  }
+  
+  .HOME-lesspending .overlap-3 {
+    position: absolute;
+    width: 1440px;
+    height: 105px;
+    top: 0;
+    left: 0;
+  }
+  
+  .HOME-lesspending .rectangle-5 {
+    position: absolute;
+    width: 1440px;
+    height: 92px;
+    top: 0;
+    left: 0;
+    background-color: #a7c5aa;
+  }
+  
+  .HOME-lesspending .line-4 {
+    position: absolute;
+    width: 1440px;
+    height: 5px;
+    top: 89px;
+    left: 0;
+  }
+  
+  .HOME-lesspending .rectangle-6 {
+    position: absolute;
+    width: 192px;
+    height: 93px;
+    top: 0;
+    left: 1062px;
+    background-color: #a7c6aa;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .rectangle-7 {
+    position: absolute;
+    width: 192px;
+    height: 93px;
+    top: 0;
+    left: 1248px;
+    background-color: #a7c6aa;
+    border-right-width: 2px;
+    border-right-style: solid;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-left-width: 2px;
+    border-left-style: solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .text-wrapper-6 {
+    position: absolute;
+    width: 147px;
+    top: 32px;
+    left: 1085px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-7 {
+    position: absolute;
+    width: 124px;
+    top: 32px;
+    left: 1287px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .line-5 {
+    position: absolute;
+    width: 2px;
+    height: 90px;
+    top: 0;
+    left: 253px;
+  }
+  
+  .HOME-lesspending .element-2 {
+    height: 105px;
+    top: 0;
+    left: 10px;
+    position: absolute;
+    width: 243px;
+  }
+  
+  .HOME-lesspending .overlap-4 {
+    position: absolute;
+    width: 205px;
+    height: 50px;
+    top: 458px;
+    left: 195px;
+  }
+  
+  .HOME-lesspending .rectangle-8 {
+    position: absolute;
+    width: 205px;
+    height: 50px;
+    top: 0;
+    left: 0;
+    background-color: #d9d9d9;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  .HOME-lesspending .text-wrapper-8 {
+    position: absolute;
+    width: 173px;
+    height: 19px;
+    top: 15px;
+    left: 21px;
+    font-family: "Kiwi Maru-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+  
+  .HOME-lesspending .text-wrapper-9 {
+    position: absolute;
+    width: 482px;
+    height: 239px;
+    top: 138px;
+    left: 195px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 70px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-10 {
+    position: absolute;
+    width: 591px;
+    height: 86px;
+    top: 721px;
+    left: 692px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 64px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-11 {
+    position: absolute;
+    width: 591px;
+    height: 86px;
+    top: 1148px;
+    left: 188px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-12 {
+    position: absolute;
+    width: 591px;
+    height: 86px;
+    top: 1903px;
+    left: 188px;
+    font-family: "Kiwi Maru-Medium", Helvetica;
+    font-weight: 500;
+    color: #000000;
+    font-size: 64px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-13 {
+    position: absolute;
+    width: 501px;
+    height: 68px;
+    top: 377px;
+    left: 195px;
+    font-family: "Kiwi Maru-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-14 {
+    position: absolute;
+    width: 574px;
+    height: 215px;
+    top: 807px;
+    left: 701px;
+    font-family: "Kiwi Maru-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    text-align: right;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .text-wrapper-15 {
+    position: absolute;
+    width: 574px;
+    height: 215px;
+    top: 1246px;
+    left: 188px;
+    font-family: "Kiwi Maru-Regular", Helvetica;
+    font-weight: 400;
+    color: #000000;
+    font-size: 24px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .HOME-lesspending .captura-de-pantalla {
+    position: absolute;
+    width: 446px;
+    height: 407px;
+    top: 127px;
+    left: 841px;
+  }
+  
+  .HOME-lesspending .captura-de-pantalla-2 {
+    position: absolute;
+    width: 375px;
+    height: 349px;
+    top: 711px;
+    left: 195px;
+  }
+  
+  .HOME-lesspending .captura-de-pantalla-3 {
+    position: absolute;
+    width: 364px;
+    height: 290px;
+    top: 1176px;
+    left: 882px;
+  }
+  
+  .HOME-lesspending .rectangle-9 {
+    position: absolute;
+    width: 1080px;
+    height: 254px;
+    top: 1521px;
+    left: 180px;
+  }
+  
+  .HOME-lesspending .rectangle-10 {
+    position: absolute;
+    width: 301px;
+    height: 433px;
+    top: 2031px;
+    left: 188px;
+    background-color: #deede0;
+    border-radius: 20px;
+  }
+  
+  .HOME-lesspending .rectangle-11 {
+    position: absolute;
+    width: 301px;
+    height: 433px;
+    top: 2031px;
+    left: 959px;
+    background-color: #c7d2c9;
+    border-radius: 20px;
+  }
+  
+  .HOME-lesspending .rectangle-12 {
+    position: absolute;
+    width: 301px;
+    height: 433px;
+    top: 2031px;
+    left: 573px;
+    background-color: #d6e2d7;
+    border-radius: 20px;
+  }
+  
+  
