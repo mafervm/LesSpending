@@ -1,0 +1,398 @@
+.suscripciones {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .suscripciones .overlap-wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(
+      180deg,
+      rgb(167.16, 197.62, 170.2) 7.69%,
+      rgb(221.14, 236.94, 222.72) 71.67%,
+      rgb(255, 255, 255) 98.41%
+    );
+    width: 100%;
+    max-width: 1440px;
+    height: 1024px;
+    margin: 0 auto;
+  }
+  
+  .suscripciones .overlap {
+    position: relative;
+    height: 1024px;
+    margin: 0 auto;
+  }
+  
+  .suscripciones .overlap-group {
+    position: absolute;
+    width: 1440px;
+    height: 1024px;
+    top: 0;
+    left: 0;
+  }
+  
+  .suscripciones .rectangle {
+    position: absolute;
+    width: 1440px;
+    height: 934px;
+    top: 90px;
+    left: 0;
+    background-color: #ffffff;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .suscripciones .div {
+    position: absolute;
+    width: 1190px;
+    height: 250px;
+    top: 181px;
+    left: 250px;
+    background-color: #a7c7aa7d;
+    border: 1px solid;
+    border-color: #000000;
+    transform: rotate(180deg);
+  }
+  
+  .suscripciones .rectangle-2 {
+    position: absolute;
+    width: 1145px;
+    height: 46px;
+    top: 197px;
+    left: 272px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .suscripciones .rectangle-3 {
+    position: absolute;
+    width: 207px;
+    height: 37px;
+    top: 314px;
+    left: 22px;
+    background-color: #d4e4d5;
+    border-radius: 5px;
+    opacity: 0.5;
+  }
+  
+  .suscripciones .text-wrapper {
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    top: 185px;
+    left: 43px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-2 {
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    top: 246px;
+    left: 43px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-3 {
+    position: absolute;
+    width: 74px;
+    height: 38px;
+    top: 200px;
+    left: 292px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-4 {
+    width: 126px;
+    top: 200px;
+    left: 366px;
+    font-size: 16px;
+    position: absolute;
+    height: 38px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-5 {
+    position: absolute;
+    width: 126px;
+    height: 38px;
+    top: 200px;
+    left: 562px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-6 {
+    width: 165px;
+    top: 307px;
+    left: 43px;
+    font-size: 20px;
+    position: absolute;
+    height: 38px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .rectangle-4 {
+    position: absolute;
+    width: 175px;
+    height: 41px;
+    top: 122px;
+    left: 38px;
+    background-color: #a7c6aa;
+    border-radius: 10px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .suscripciones .text-wrapper-7 {
+    position: absolute;
+    width: 165px;
+    height: 38px;
+    top: 122px;
+    left: 43px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-8 {
+    position: absolute;
+    width: 126px;
+    top: 128px;
+    left: 1240px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .lesspending {
+    position: absolute;
+    width: 90px;
+    height: 72px;
+    top: 112px;
+    left: 1331px;
+  }
+  
+  .suscripciones .line {
+    position: absolute;
+    width: 4px;
+    height: 38px;
+    top: 314px;
+    left: 1px;
+  }
+  
+  .suscripciones .rectangle-5 {
+    position: absolute;
+    width: 1144px;
+    height: 48px;
+    top: 252px;
+    left: 273px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+    mix-blend-mode: soft-light;
+  }
+  
+  .suscripciones .rectangle-6 {
+    position: absolute;
+    width: 1144px;
+    height: 48px;
+    top: 309px;
+    left: 273px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+    mix-blend-mode: soft-light;
+  }
+  
+  .suscripciones .rectangle-7 {
+    position: absolute;
+    width: 1144px;
+    height: 48px;
+    top: 366px;
+    left: 273px;
+    background-color: #d9d9d9;
+    border: 1px solid;
+    border-color: #000000;
+    mix-blend-mode: soft-light;
+  }
+  
+  .suscripciones .text-wrapper-9 {
+    position: absolute;
+    width: 126px;
+    height: 38px;
+    top: 370px;
+    left: 366px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .img {
+    position: absolute;
+    width: 1440px;
+    height: 2px;
+    top: 88px;
+    left: 0;
+  }
+  
+  .suscripciones .line-2 {
+    position: absolute;
+    width: 2px;
+    height: 89px;
+    top: 0;
+    left: 253px;
+  }
+  
+  .suscripciones .line-3 {
+    position: absolute;
+    width: 2px;
+    height: 92px;
+    top: 1px;
+    left: 1252px;
+  }
+  
+  .suscripciones .element {
+    position: absolute;
+    width: 243px;
+    height: 102px;
+    top: 0;
+    left: 7px;
+  }
+  
+  .suscripciones .text-wrapper-10 {
+    position: absolute;
+    width: 126px;
+    height: 38px;
+    top: 312px;
+    left: 366px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-11 {
+    position: absolute;
+    width: 126px;
+    height: 38px;
+    top: 256px;
+    left: 366px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-12 {
+    position: absolute;
+    width: 126px;
+    height: 38px;
+    top: 256px;
+    left: 562px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-13 {
+    top: 313px;
+    position: absolute;
+    width: 126px;
+    height: 38px;
+    left: 562px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-14 {
+    top: 370px;
+    position: absolute;
+    width: 126px;
+    height: 38px;
+    left: 562px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #404040;
+    font-size: 16px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .suscripciones .text-wrapper-15 {
+    position: absolute;
+    width: 51px;
+    top: 31px;
+    left: 1323px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
