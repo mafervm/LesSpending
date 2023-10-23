@@ -1,0 +1,363 @@
+.mi-perfil-MIS-INGRESOS {
+    background-color: rgba(255, 255, 255, 1);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .overlap-group-wrapper {
+    background-color: rgba(255, 255, 255, 1);
+    background: linear-gradient(
+      180deg,
+      rgb(167.16, 197.62, 170.2) 7.69%,
+      rgb(221.14, 236.94, 222.72) 71.67%,
+      rgb(255, 255, 255) 98.41%
+    );
+    max-width: 1850px; 
+    width: 100%;
+    height: 1024px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .overlap-group {
+    position: absolute;
+    width: 1009px;
+    height: 618px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+  
+  .mi-perfil-MIS-INGRESOS .rectangle {
+    position: absolute;
+    width: 1009px;
+    height: 617px;
+    top: 0;
+    left: 2px;
+    background-color: #ffffff;
+    border-radius: 20px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .img {
+    position: absolute;
+    width: 352px;
+    height: 51px;
+    top: 272px;
+    left: 2px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .rectangle-2 {
+    position: absolute;
+    width: 352px;
+    height: 51px;
+    top: 222px;
+    left: 2px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .rectangle-3 {
+    position: absolute;
+    width: 352px;
+    height: 51px;
+    top: 323px;
+    left: 0;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector {
+    position: absolute;
+    width: 350px;
+    height: 2px;
+    top: 105px;
+    left: 4px;
+    object-fit: cover;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .image {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 19px;
+    left: 935px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .text-wrapper {
+    position: absolute;
+    width: 243px;
+    height: 65px;
+    top: 29px;
+    left: 57px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 48px;
+    text-align: center;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .image-2 {
+    position: absolute;
+    width: 103px;
+    height: 95px;
+    top: 115px;
+    left: 121px;
+    object-fit: cover;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-2 {
+    position: absolute;
+    width: 2px;
+    height: 617px;
+    top: 0;
+    left: 352px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-3 {
+    position: absolute;
+    width: 14px;
+    height: 26px;
+    top: 235px;
+    left: 328px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .div {
+    top: 231px;
+    left: 53px;
+    position: absolute;
+    width: 202px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .text-wrapper-2 {
+    top: 329px;
+    left: 51px;
+    position: absolute;
+    width: 202px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .text-wrapper-3 {
+    position: absolute;
+    width: 202px;
+    top: 469px;
+    left: 481px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .text-wrapper-4 {
+    top: 518px;
+    left: 481px;
+    position: absolute;
+    width: 202px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .mi-perfil-MIS-INGRESOS .text-wrapper-5 {
+    top: 469px;
+    left: 754px;
+    position: absolute;
+    width: 202px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .text-wrapper-6 {
+    position: absolute;
+    width: 202px;
+    top: 518px;
+    left: 754px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .text-wrapper-7 {
+    top: 282px;
+    left: 51px;
+    position: absolute;
+    width: 202px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .ellipse {
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    top: 30px;
+    left: 480px;
+    border-radius: 200px;
+    border: 1px solid;
+    border-color: #000000;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .ellipse-2 {
+    position: absolute;
+    width: 308px;
+    height: 308px;
+    top: 80px;
+    left: 526px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .text-wrapper-8 {
+    position: absolute;
+    width: 197px;
+    top: 204px;
+    left: 594px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 36px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-4 {
+    position: absolute;
+    width: 201px;
+    height: 201px;
+    top: 29px;
+    left: 480px;
+  }
+
+  .mi-perfil-MIS-INGRESOS .vector-5 {
+    position: absolute;
+    width: 202px;
+    height: 196px;
+    top: 30px;
+    left: 677px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-6 {
+    position: absolute;
+    width: 203px;
+    height: 202px;
+    top: 229px;
+    left: 480px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-7 {
+    position: absolute;
+    width: 199px;
+    height: 207px;
+    top: 224px;
+    left: 681px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-8 {
+    position: absolute;
+    width: 1px;
+    height: 49px;
+    top: 31px;
+    left: 678px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-9 {
+    position: absolute;
+    width: 1px;
+    height: 49px;
+    top: 381px;
+    left: 681px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-10 {
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: 229px;
+    left: 480px;
+    object-fit: cover;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-11 {
+    position: absolute;
+    width: 50px;
+    height: 1px;
+    top: 225px;
+    left: 830px;
+    object-fit: cover;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .rectangle-4 {
+    position: absolute;
+    width: 34px;
+    height: 30px;
+    top: 470px;
+    left: 430px;
+    background-color: #f5df71;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .rectangle-5 {
+    position: absolute;
+    width: 34px;
+    height: 30px;
+    top: 516px;
+    left: 430px;
+    background-color: #7fb7c7;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .rectangle-6 {
+    position: absolute;
+    width: 34px;
+    height: 30px;
+    top: 516px;
+    left: 703px;
+    background-color: #e0756d;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .rectangle-7 {
+    position: absolute;
+    width: 34px;
+    height: 30px;
+    top: 470px;
+    left: 703px;
+    background-color: #93c798;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-12 {
+    position: absolute;
+    width: 14px;
+    height: 26px;
+    top: 286px;
+    left: 328px;
+  }
+  
+  .mi-perfil-MIS-INGRESOS .vector-13 {
+    position: absolute;
+    width: 14px;
+    height: 26px;
+    top: 335px;
+    left: 328px;
+  }

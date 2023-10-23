@@ -14,11 +14,12 @@
       rgb(221.14, 236.94, 222.72) 71.67%,
       rgb(255, 255, 255) 98.41%
     );
-    max-width: 1850px; 
+    max-width: 1850px; /* Adjusted to a maximum width */
+    width: 100%;
     height: 1024px;
+    margin: 0 auto; /* Centers the element horizontally */
 }
 
-  
 .sign-in .overlap {
   position: relative;
   width: 1009px;
