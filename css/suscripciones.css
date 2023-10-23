@@ -24,6 +24,8 @@
     position: relative;
     height: 1024px;
     margin: 0 auto;
+    border: 2px solid;
+    border-color: #000000;
   }
   
   .suscripciones .overlap-group {
@@ -36,7 +38,7 @@
   
   .suscripciones .rectangle {
     position: absolute;
-    width: 1440px;
+    width: 1405px;
     height: 934px;
     top: 90px;
     left: 0;
@@ -47,7 +49,7 @@
   
   .suscripciones .div {
     position: absolute;
-    width: 1190px;
+    width: 1150px;
     height: 250px;
     top: 181px;
     left: 250px;
@@ -59,7 +61,7 @@
   
   .suscripciones .rectangle-2 {
     position: absolute;
-    width: 1145px;
+    width: 1110px;
     height: 46px;
     top: 197px;
     left: 272px;
@@ -211,10 +213,10 @@
   
   .suscripciones .lesspending {
     position: absolute;
-    width: 90px;
-    height: 72px;
+    width: 80px;
+    height: 70px;
     top: 112px;
-    left: 1331px;
+    left: 1329px;
   }
   
   .suscripciones .line {
@@ -227,7 +229,7 @@
   
   .suscripciones .rectangle-5 {
     position: absolute;
-    width: 1144px;
+    width: 1110px;
     height: 48px;
     top: 252px;
     left: 273px;
@@ -239,7 +241,7 @@
   
   .suscripciones .rectangle-6 {
     position: absolute;
-    width: 1144px;
+    width: 1110px;
     height: 48px;
     top: 309px;
     left: 273px;
@@ -251,7 +253,7 @@
   
   .suscripciones .rectangle-7 {
     position: absolute;
-    width: 1144px;
+    width: 1110px;
     height: 48px;
     top: 366px;
     left: 273px;
@@ -278,7 +280,7 @@
   
   .suscripciones .img {
     position: absolute;
-    width: 1440px;
+    width: 1410px;
     height: 2px;
     top: 88px;
     left: 0;

@@ -14,30 +14,28 @@
       rgb(221.14, 236.94, 222.72) 71.67%,
       rgb(255, 255, 255) 98.41%
     );
-    width: 100%;
-    max-width: 1440px;
+    width: 1440px;
     height: 1024px;
-    margin: 0 auto;
   }
-  
   
   .usuarios .overlap {
     position: relative;
     height: 1024px;
-    margin: 0 auto;
+    
   }
   
   .usuarios .overlap-group {
     position: absolute;
-    width: 1440px;
+    width: 1408px;
     height: 1024px;
     top: 0;
     left: 0;
+    border: 2px solid #000000;
   }
   
   .usuarios .rectangle {
     position: absolute;
-    width: 1440px;
+    width: 1405px;
     height: 934px;
     top: 90px;
     left: 0;
@@ -48,7 +46,7 @@
   
   .usuarios .div {
     position: absolute;
-    width: 1190px;
+    width: 1155px;
     height: 843px;
     top: 181px;
     left: 250px;
@@ -60,7 +58,7 @@
   
   .usuarios .rectangle-2 {
     position: absolute;
-    width: 1145px;
+    width: 1125px;
     height: 46px;
     top: 197px;
     left: 272px;
@@ -266,10 +264,10 @@
   
   .usuarios .lesspending {
     position: absolute;
-    width: 90px;
-    height: 72px;
+    width: 80px;
+    height: 70px;
     top: 112px;
-    left: 1331px;
+    left: 1329px;
   }
   
   .usuarios .line {
@@ -282,7 +280,7 @@
   
   .usuarios .rectangle-5 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 252px;
     left: 273px;
@@ -294,7 +292,7 @@
   
   .usuarios .rectangle-6 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 309px;
     left: 273px;
@@ -306,7 +304,7 @@
   
   .usuarios .rectangle-7 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 366px;
     left: 273px;
@@ -318,7 +316,7 @@
   
   .usuarios .rectangle-8 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 423px;
     left: 273px;
@@ -330,7 +328,7 @@
   
   .usuarios .rectangle-9 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 708px;
     left: 272px;
@@ -342,7 +340,7 @@
   
   .usuarios .rectangle-10 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 765px;
     left: 272px;
@@ -354,7 +352,7 @@
   
   .usuarios .rectangle-11 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 822px;
     left: 272px;
@@ -366,7 +364,7 @@
   
   .usuarios .rectangle-12 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 879px;
     left: 272px;
@@ -378,7 +376,7 @@
   
   .usuarios .rectangle-13 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 936px;
     left: 272px;
@@ -390,7 +388,7 @@
   
   .usuarios .rectangle-14 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 480px;
     left: 273px;
@@ -402,7 +400,7 @@
   
   .usuarios .rectangle-15 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 537px;
     left: 273px;
@@ -414,7 +412,7 @@
   
   .usuarios .rectangle-16 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 594px;
     left: 273px;
@@ -426,7 +424,7 @@
   
   .usuarios .rectangle-17 {
     position: absolute;
-    width: 1144px;
+    width: 1122px;
     height: 48px;
     top: 651px;
     left: 273px;
@@ -438,7 +436,7 @@
   
   .usuarios .img {
     position: absolute;
-    width: 1440px;
+    width: 1410px;
     height: 2px;
     top: 88px;
     left: 0;
