@@ -57,52 +57,30 @@
     height: 41px;
     left: 0;
     background-color: #e8e8e8;
-    border: 2px solid;
+    border: 1px solid;
     border-color: #000000;
     position: absolute;
     top: 0;
-  }
-  
-  .sign-up .div {
-    position: absolute;
-    width: 113px;
-    top: 10px;
-    left: 14px;
-    opacity: 0.5;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
   }
+  
   
   .sign-up .rectangle-2 {
     position: absolute;
-    width: 193px;
+    width: 191px;
     height: 41px;
     top: 0;
     left: 199px;
     background-color: #e8e8e8;
-    border: 2px solid;
+    border: 1px solid;
     border-color: #000000;
-  }
-  
-  .sign-up .text-wrapper-2 {
-    position: absolute;
-    width: 113px;
-    top: 10px;
-    left: 212px;
-    opacity: 0.5;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
   }
+  
   
   .sign-up .overlap-2 {
     position: absolute;
@@ -113,8 +91,24 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer;
   }
-  
+
+  .sign-up .text-wrapper-2 {
+    position: absolute;
+    width: 172px;
+    top: 10px;
+    left: 210px;
+    opacity: 0.5;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 16px;
+    letter-spacing: 0;
+    line-height: normal;
+    white-space: nowrap;
+  }
+
   .sign-up .text-wrapper-3 {
     position: absolute;
     width: 392px;
@@ -146,6 +140,7 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer;
   }
   
   .sign-up .img {
@@ -165,6 +160,7 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer;
   }
   
   .sign-up .text-wrapper-4 {
@@ -198,6 +194,7 @@
     background-color: #a7c6aa;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer; 
   }
   
   .sign-up .text-wrapper-5 {
@@ -213,6 +210,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
   
   .sign-up .text-wrapper-6 {
     position: absolute;
@@ -226,6 +224,9 @@
     letter-spacing: 0;
     line-height: normal;
     text-decoration: underline;
+    background-color: #ffffff;
+    border: 0px;
+    cursor: pointer; 
   }
   
   .sign-up .image-3 {
@@ -340,18 +341,17 @@
   }
   
   .sign-up .text-wrapper-10 {
+    width: 390px;
+    height: 41px;
+    left: -0.5%;
+    background-color: #e8e8e8;
+    border: 1px solid;
+    border-color: #000000;
     position: absolute;
-    width: 162px;
-    top: 8px;
-    left: 10px;
-    opacity: 0.5;
+    top: -5%;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
   }
   
   .sign-up .overlap-7 {
@@ -377,17 +377,16 @@
   }
   
   .sign-up .text-wrapper-11 {
+    width: 390px;
+    height: 41px;
+    left: -0.5%;
+    background-color: #e8e8e8;
+    border: 1px solid;
+    border-color: #000000;
     position: absolute;
-    width: 208px;
-    top: 8px;
-    left: 10px;
-    opacity: 0.5;
+    top: -5%;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 16px;
-    letter-spacing: 0;
-    line-height: normal;
-    white-space: nowrap;
   }
   

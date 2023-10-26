@@ -23,7 +23,7 @@
   
   .registrar-gasto .line {
     position: absolute;
-    width: 1800px;
+    width: 1440px;
     height: 1px;
     top: 272px;
     left: 50%;
@@ -33,7 +33,7 @@
   
   .registrar-gasto .img {
     position: absolute;
-    width: 1800px;
+    width: 1440px;
     height: 1px;
     top: 280px;
     left: 50%;
@@ -54,6 +54,9 @@
   
   .registrar-gasto .rectangle-2 {
     position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center; /* Align the content to the center */
     width: 410px;
     height: 45px;
     top: 313px;
@@ -61,29 +64,26 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer; 
   }
   
-  .registrar-gasto .rectangle-3 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 449px;
-    left: 254px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
+  .registrar-gasto .text-wrapper-5 {
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+    text-align: 500px; 
   }
   
-  .registrar-gasto .rectangle-4 {
+  .registrar-gasto .element-4 {
     position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 381px;
-    left: 254px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
-  }
+    width: 88px;
+    height: 41px;
+    right: 318px;
+  }  
+
   
   .registrar-gasto .group {
     top: 26px;
@@ -93,17 +93,8 @@
     height: 45px;
   }
   
-  .registrar-gasto .overlap-group {
-    position: relative;
-    width: 313px;
-    height: 45px;
-    background-color: #ffffff;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
   .registrar-gasto .text-wrapper {
-    width: 279px;
+
     left: 15px;
     position: absolute;
     top: 7px;
@@ -125,34 +116,12 @@
     border: 2px solid;
     border-color: #000000;
   }
-  
-  .registrar-gasto .rectangle-6 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 177px;
-    left: 254px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
-  .registrar-gasto .rectangle-7 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 245px;
-    left: 254px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
+
   .registrar-gasto .text-wrapper-2 {
     position: absolute;
     width: 227px;
-    top: 117px;
-    left: 345px;
+    top: 3px;
+    left: 90px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -165,15 +134,26 @@
     position: absolute;
     width: 88px;
     height: 41px;
-    top: 111px;
-    left: 256px;
+    top: 0px;
+    left: 0px;
+  }
+
+  .registrar-gasto .rectangle-6 {
+    position: absolute;
+    width: 410px;
+    height: 45px;
+    top: 177px;
+    left: 254px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
   }
   
   .registrar-gasto .text-wrapper-3 {
     position: absolute;
     width: 178px;
-    top: 185px;
-    left: 370px;
+    top: 3px;
+    left: 120px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -186,15 +166,26 @@
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 179px;
-    left: 256px;
+    top: 0px;
+    left: 0px;
   }
   
+  .registrar-gasto .rectangle-7 {
+    position: absolute;
+    width: 410px;
+    height: 45px;
+    top: 245px;
+    left: 254px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
   .registrar-gasto .text-wrapper-4 {
     position: absolute;
     width: 183px;
-    top: 253px;
-    left: 367px;
+    top: 3px;
+    left: 120px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -207,49 +198,26 @@
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 247px;
-    left: 256px;
+    top: 0;
+    left: 0;
   }
-  
-  .registrar-gasto .text-wrapper-5 {
+
+  .registrar-gasto .rectangle-4 {
     position: absolute;
-    width: 173px;
-    top: 321px;
-    left: 372px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+    width: 410px;
+    height: 45px;
+    top: 381px;
+    left: 254px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
   }
-  
-  .registrar-gasto .element-4 {
-    position: absolute;
-    width: 89px;
-    height: 41px;
-    top: 315px;
-    left: 256px;
-  }
-  
+
   .registrar-gasto .text-wrapper-6 {
     position: absolute;
     width: 119px;
-    top: 389px;
-    left: 399px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .registrar-gasto .text-wrapper-7 {
-    position: absolute;
-    width: 176px;
-    top: 457px;
-    left: 371px;
+    top: 3px;
+    left: 150px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -262,49 +230,41 @@
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 383px;
-    left: 256px;
+    top: 0;
+    left: 0;
+  }
+
+  .registrar-gasto .rectangle-3 {
+    position: absolute;
+    width: 410px;
+    height: 45px;
+    top: 449px;
+    left: 254px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  
+  
+  .registrar-gasto .text-wrapper-7 {
+    position: absolute;
+    width: 176px;
+    top: 3px;
+    left: 120px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
   }
   
   .registrar-gasto .element-6 {
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 451px;
-    left: 256px;
-  }
-  
-  .registrar-gasto .rectangle-8 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 315px;
-    left: 780px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
-  .registrar-gasto .rectangle-9 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 451px;
-    left: 780px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
-  .registrar-gasto .rectangle-10 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 383px;
-    left: 780px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
+    top: 0;
+    left: 0;
   }
   
   .registrar-gasto .rectangle-11 {
@@ -317,34 +277,11 @@
     border: 2px solid;
     border-color: #000000;
   }
-  
-  .registrar-gasto .rectangle-12 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 179px;
-    left: 780px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
-  .registrar-gasto .rectangle-13 {
-    position: absolute;
-    width: 410px;
-    height: 45px;
-    top: 247px;
-    left: 780px;
-    background-color: #e8e8e8;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
   .registrar-gasto .text-wrapper-8 {
     position: absolute;
     width: 97px;
-    top: 119px;
-    left: 936px;
+    top: 3px;
+    left: 150px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -357,15 +294,26 @@
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 113px;
-    left: 782px;
+    top: 0;
+    left: 0;
   }
-  
-  .registrar-gasto .text-wrapper-9 {
+
+  .registrar-gasto .rectangle-12 {
     position: absolute;
-    width: 203px;
-    top: 255px;
-    left: 883px;
+    width: 410px;
+    height: 45px;
+    top: 179px;
+    left: 780px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
+  .registrar-gasto .text-wrapper-10 {
+    position: absolute;
+    width: 93px;
+    top: 3px;
+    left: 150px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -373,33 +321,62 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
+  .registrar-gasto .element-10 {
+    position: absolute;
+    width: 89px;
+    height: 41px;
+    top: 0;
+    left: 0;
+  }
   
+  .registrar-gasto .rectangle-13 {
+    position: absolute;
+    width: 410px;
+    height: 45px;
+    top: 247px;
+    left: 780px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
+  .registrar-gasto .text-wrapper-9 {
+    position: absolute;
+    width: 203px;
+    top: 3px;
+    left: 110px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
   .registrar-gasto .element-8 {
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 249px;
-    left: 782px;
+    top: 0;
+    left: 0;
   }
   
-  .registrar-gasto .text-wrapper-10 {
+  .registrar-gasto .rectangle-8 {
     position: absolute;
-    width: 93px;
-    top: 187px;
-    left: 938px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
+    width: 410px;
+    height: 45px;
+    top: 315px;
+    left: 780px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
   }
-  
+
   .registrar-gasto .text-wrapper-11 {
     position: absolute;
     width: 99px;
-    top: 323px;
-    left: 935px;
+    top: 3px;
+    left: 150px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -412,15 +389,26 @@
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 317px;
-    left: 782px;
+    top: 0;
+    left: 0;
   }
-  
+
+  .registrar-gasto .rectangle-10 {
+    position: absolute;
+    width: 410px;
+    height: 45px;
+    top: 383px;
+    left: 780px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
   .registrar-gasto .text-wrapper-12 {
     position: absolute;
     width: 131px;
-    top: 391px;
-    left: 919px;
+    top: 3px;
+    left: 135px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -428,42 +416,45 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
-  .registrar-gasto .text-wrapper-13 {
-    position: absolute;
-    width: 66px;
-    top: 459px;
-    left: 952px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .registrar-gasto .element-10 {
-    position: absolute;
-    width: 89px;
-    height: 41px;
-    top: 181px;
-    left: 782px;
-  }
-  
+
   .registrar-gasto .element-11 {
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 385px;
-    left: 782px;
+    top: 0;
+    left: 0;
+  }
+  
+  .registrar-gasto .rectangle-9 {
+    position: absolute;
+    width: 410px;
+    height: 45px;
+    top: 451px;
+    left: 780px;
+    background-color: #e8e8e8;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
+  .registrar-gasto .text-wrapper-13 {
+    position: absolute;
+    width: 66px;
+    top: 3px;
+    left: 170px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
   }
   
   .registrar-gasto .element-12 {
     position: absolute;
     width: 89px;
     height: 41px;
-    top: 453px;
-    left: 782px;
+    top: 0;
+    left: 0;
   }
   
   .registrar-gasto .overlap-2 {
@@ -476,7 +467,7 @@
   
   .registrar-gasto .line-2 {
     position: absolute;
-    width: 1800px;
+    width: 1440px;
     height: 1px;
     top: 213px;
     left: 50%;
@@ -487,8 +478,8 @@
   
   .registrar-gasto .line-3 {
     position: absolute;
-    width: 1800px;
-    height: 1.5px;
+    width: 1440px;
+    height: 1px;
     top: 221px;
     left: 50%;
     transform: translateX(-50%);
@@ -505,6 +496,100 @@
     border: 2px solid;
     border-color: #000000;
   }
+
+  .registrar-gasto .rectangle-16 {
+    position: absolute;
+    width: 378px;
+    height: 45px;
+    top: 122px;
+    left: 250px;
+    background-color: #f5df71;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
+  .registrar-gasto .text-wrapper-14 {
+    position: absolute;
+    width: 88px;
+    top: 3px;
+    left: 150px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .registrar-gasto .element-13 {
+    position: absolute;
+    width: 89px;
+    height: 41px;
+    top: 0;
+    left: 0;
+  }
+
+  .registrar-gasto .rectangle-17 {
+    position: absolute;
+    width: 378px;
+    height: 45px;
+    top: 190px;
+    left: 250px;
+    background-color: #7fb7c7;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
+  .registrar-gasto .text-wrapper-15 {
+    width: 192px;
+    top: 3px;
+    left: 110px;
+    position: absolute;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+  .registrar-gasto .element-14 {
+    position: absolute;
+    width: 89px;
+    height: 41px;
+    top: 0;
+    left: 0;
+  }
+
+  .registrar-gasto .rectangle-18 {
+    position: absolute;
+    width: 378px;
+    height: 45px;
+    top: 258px;
+    left: 250px;
+    background-color: #93c798;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
+  .registrar-gasto .text-wrapper-16 {
+    width: 180px;
+    top: 3px;
+    left: 120px;
+    position: absolute;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .registrar-gasto .element-15 {
+    position: absolute;
+    width: 89px;
+    height: 41px;
+    top: 0;
+    left: 0;
+  }
   
   .registrar-gasto .rectangle-15 {
     position: absolute;
@@ -515,6 +600,26 @@
     background-color: #e0756d;
     border: 2px solid;
     border-color: #000000;
+  }
+
+  .registrar-gasto .text-wrapper-17 {
+    position: absolute;
+    width: 148px;
+    top: 3px;
+    left: 130px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+  .registrar-gasto .image {
+    position: absolute;
+    width: 60px;
+    height: 41px;
+    top: 0;
+    left: 0.5px;
   }
   
   .registrar-gasto .overlap-wrapper {
@@ -537,128 +642,12 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
-  .registrar-gasto .rectangle-16 {
-    position: absolute;
-    width: 378px;
-    height: 45px;
-    top: 122px;
-    left: 250px;
-    background-color: #f5df71;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
-  .registrar-gasto .rectangle-17 {
-    position: absolute;
-    width: 378px;
-    height: 45px;
-    top: 190px;
-    left: 250px;
-    background-color: #7fb7c7;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
-  .registrar-gasto .rectangle-18 {
-    position: absolute;
-    width: 378px;
-    height: 45px;
-    top: 258px;
-    left: 250px;
-    background-color: #93c798;
-    border: 2px solid;
-    border-color: #000000;
-  }
-  
-  .registrar-gasto .text-wrapper-14 {
-    position: absolute;
-    width: 88px;
-    top: 130px;
-    left: 395px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .registrar-gasto .text-wrapper-15 {
-    width: 192px;
-    top: 198px;
-    left: 359px;
-    position: absolute;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .registrar-gasto .text-wrapper-16 {
-    width: 180px;
-    top: 266px;
-    left: 365px;
-    position: absolute;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .registrar-gasto .text-wrapper-17 {
-    position: absolute;
-    width: 148px;
-    top: 334px;
-    left: 381px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .registrar-gasto .image {
-    position: absolute;
-    width: 47px;
-    height: 34px;
-    top: 332px;
-    left: 273px;
-  }
-  
-  .registrar-gasto .element-13 {
-    position: absolute;
-    width: 89px;
-    height: 41px;
-    top: 124px;
-    left: 252px;
-  }
-  
-  .registrar-gasto .element-14 {
-    top: 192px;
-    position: absolute;
-    width: 89px;
-    height: 41px;
-    left: 252px;
-  }
-  
-  .registrar-gasto .element-15 {
-    top: 260px;
-    position: absolute;
-    width: 89px;
-    height: 41px;
-    left: 252px;
-  }
+
   
   .registrar-gasto .rectangle-19 {
     position: absolute;
     width: 467px;
-    height: 415px;
+    height: 300px;
     top: 0;
     left: 768px;
     background-color: #e8e8e8;
@@ -686,14 +675,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
-  
-  .registrar-gasto .div-wrapper {
-    top: 191px;
-    left: 845px;
-    position: absolute;
-    width: 315px;
-    height: 45px;
-  }
+
   
   .registrar-gasto .text-wrapper-19 {
     position: absolute;
@@ -707,32 +689,8 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
   
-  .registrar-gasto .text-wrapper-20 {
-    position: absolute;
-    width: 85px;
-    top: 264px;
-    left: 897px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
-  
-  .registrar-gasto .text-wrapper-21 {
-    position: absolute;
-    width: 74px;
-    top: 264px;
-    left: 1084px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #000000;
-    font-size: 20px;
-    letter-spacing: 0;
-    line-height: normal;
-  }
   
   .registrar-gasto .rectangle-20 {
     position: absolute;
@@ -743,40 +701,30 @@
     background-color: #b3bfc7;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
   }
   
   .registrar-gasto .rectangle-21 {
     position: absolute;
     width: 200px;
     height: 45px;
-    top: 335px;
+    top: 205px;
     left: 902px;
     background-color: #545e7a;
     border: 2px solid;
     border-color: #000000;
   }
   
-  .registrar-gasto .element-16 {
-    position: absolute;
-    width: 37px;
-    height: 41px;
-    top: 258px;
-    left: 845px;
-  }
-  
-  .registrar-gasto .element-17 {
-    position: absolute;
-    width: 38px;
-    height: 41px;
-    top: 258px;
-    left: 1031px;
-  }
-  
   .registrar-gasto .text-wrapper-22 {
     position: absolute;
     width: 90px;
-    top: 343px;
-    left: 957px;
+    top: 3px;
+    left: 50px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #ffffff;
@@ -800,9 +748,9 @@
   
   .registrar-gasto .overlap-3 {
     position: absolute;
-    width: 1798px;
+    width: 1440px;
     height: 201px;
-    top: 1725px;
+    top: 2600px;
     left: 50%;
     transform: translateX(-50%);
     background-color: #a7c5aa;
@@ -813,7 +761,7 @@
   .registrar-gasto .element-18 {
     height: 119px;
     top: 76px;
-    left: 1550px;
+    left: 1170px;
     position: absolute;
     width: 243px;
   }
@@ -861,7 +809,7 @@
   
   .registrar-gasto .overlap-4 {
     position: absolute;
-    width: 1798px;
+    width: 1440px;
     height: 103px;
     top: 0;
     left: 50%;
@@ -875,7 +823,7 @@
   
   .registrar-gasto .rectangle-22 {
     position: absolute;
-    width: 1440px;
+    width: 1420px;
     height: 92px;
     top: 0;
     left: 0;
@@ -892,15 +840,17 @@
   
   .registrar-gasto .text-wrapper-27 {
     position: absolute;
-    width: 51px;
+    width: 70px;
     top: 32px;
-    left: 1700px;
+    left: 1350px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    background-color: #a7c5aa;
+    border: 0;
   }
   
   .registrar-gasto .line-5 {
@@ -908,7 +858,7 @@
     width: 2px;
     height: 100px;
     top: 0;
-    left: 300px;
+    left: 250px;
   }
   
   .registrar-gasto .line-6 {
@@ -916,15 +866,15 @@
     width: 2px;
     height: 100px;
     top: 0;
-    left: 1650px;
+    left: 1320px;
   }
   
   .registrar-gasto .element-19 {
     position: absolute;
-    width: 243px;
-    height: 103px;
-    top: 0;
-    left: 2%;
+    width: 190px;
+    height: 100px;
+    top: 4px;
+    left: 30px;
 }
 
   
@@ -940,11 +890,11 @@
     position: absolute;
     width: 126px;
     top: 16px;
-    left: 0;
+    left: -50px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -967,7 +917,6 @@
   
   .registrar-gasto .text-wrapper-29 {
     position: absolute;
-    width: 145px;
     height: 28px;
     top: 125px;
     left: 52px;
@@ -975,10 +924,14 @@
     font-weight: 500;
     color: #000000;
     font-size: 20px;
-    text-align: right;
+    text-align: left;
     letter-spacing: 0;
     line-height: normal;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
+  
   
   .registrar-gasto .rectangle-24 {
     position: absolute;
@@ -986,9 +939,130 @@
     height: 45px;
     top: 165px;
     left: 52px;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
     background-color: #a7c6aa;
     border-radius: 10px;
     border: 2px solid;
     border-color: #000000;
   }
   
+  .registrar-gasto .group-2 {
+    display: flex; 
+    align-items: center; 
+    top: 26px;
+    left: 558px;
+    position: absolute;
+    width: 50%; 
+    height: 45px;
+}
+
+.registrar-ingreso {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+}
+
+.registrar-gasto .div-2 {
+  background-color: #ffffff;
+  width: 1440px;
+  height: 0px;
+  position: relative;
+}
+
+.registrar-gasto .overlaps-2 {
+  position: absolute;
+  width: 1440px;
+  height: 545px;
+  top: 1680px;
+  left: 0;
+}
+
+
+.registrar-gasto .elements {
+  position: absolute;
+  width: 50px;
+  height: 35px;
+  top: 3px;
+  left: 20px;
+}
+
+.registrar-gasto .rectangle-2-2{
+  position: absolute;
+  width: 1030px;
+  height: 330px;
+  top: 0;
+  left: 205px;
+  background-color: #7890c9;
+  border: 2px solid;
+  border-color: #000000;
+}
+
+.registrar-gasto .elements-2 {
+  position: absolute;
+  width: 50px;
+  height: 35px;
+  top: 3px;
+  left: 15px;
+}
+
+.registrar-gasto .elements-3 {
+  position: absolute;
+  width: 50px;
+  height: 41px;
+  top: 0;
+  left: 20px;
+}
+.registrar-gasto .elements-4 {
+  position: absolute;
+  width: 50px;
+  height: 41px;
+  top: 0;
+  left: 20px;
+}
+.registrar-gasto .elements-5 {
+  position: absolute;
+  width: 40px;
+  height: 36px;
+  top: 4px;
+  left: 20px;
+}
+.registrar-gasto .elements-6 {
+  position: absolute;
+  width: 50px;
+  height: 30px;
+  top: 5px;
+  left: 15px;
+}
+
+.registrar-gasto .lines-2 {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 172px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+
+.registrar-gasto .imgs-2 {
+  position: absolute;
+  width: 1440px;
+  height: 1px;
+  top: 180px;
+  left: 50%;
+  transform: translateX(-50%);
+  object-fit: cover;
+}
+
+.registrar-gasto .overlaps-3 {
+  position: absolute;
+  width: 1440px;
+  height: 415px;
+  top: 2092px;
+  left: 0;
+}
+

@@ -54,6 +54,8 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 600;
   }
   
   .sign-in .div {
@@ -92,6 +94,8 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 600;
   }
   
   .sign-in .overlap-group {
@@ -103,6 +107,7 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer;
   }
   
   .sign-in .text-wrapper-2 {
@@ -136,6 +141,7 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer;
   }
   
   .sign-in .img {
@@ -155,6 +161,7 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    cursor: pointer; 
   }
   
   .sign-in .text-wrapper-3 {
@@ -185,7 +192,10 @@
     height: 50px;
     top: 18px;
     left: 934px;
+    background-color: #ffffff;
+    border: none; 
   }
+  
   
   .sign-in .text-wrapper-4 {
     position: absolute;
@@ -259,6 +269,9 @@
     letter-spacing: 0;
     line-height: normal;
     text-decoration: underline;
+    background-color: #ffffff;
+    border: 0px;
+    cursor: pointer; 
   }
   
   .sign-in .image-4 {
@@ -272,13 +285,14 @@
   
   .sign-in .div-wrapper {
     position: absolute;
-  width: 193px;
-  height: 41px;
-  top: 332px;
-  left: 197px;
-  background-color: #a7c6aa;
-  border: 2px solid;
-  border-color: #000000;
+    width: 193px;
+    height: 41px;
+    top: 335px;
+    left: 197px;
+    background-color: #a7c6aa;
+    border: 2px solid;
+    border-color: #000000;
+    cursor: pointer; 
   }
   
   .sign-in .text-wrapper-7 {

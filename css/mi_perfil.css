@@ -44,7 +44,7 @@
   }
   
 
-  .mi-perfil-MIS-DATOS .div {
+  .mi-perfil-MIS-DATOS .button-container {
     position: absolute;
     width: 196px;
     height: 41px;
@@ -52,14 +52,16 @@
     left: 488px;
     background-color: #a7c7aa;
     border-radius: 10px;
-    border: 2px solid;
-    border-color: #000000;
-  }
+    border: 2px solid #000000;
+    cursor: pointer;
+}
+
+
   
   .mi-perfil-MIS-DATOS .text-wrapper {
     position: absolute;
-    top: 528px;
-    left: 542px;
+    top: 2px;
+    left: 50px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
@@ -140,11 +142,14 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
   
   .mi-perfil-MIS-DATOS .text-wrapper-5 {
     top: 280px;
-    left: 50px;
+    left: 8px;
     position: absolute;
     width: 202px;
     font-family: 'Kiwi Maru', sans-serif;
@@ -153,11 +158,13 @@
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    background-color: #ffffff00;
+    border: 0px;
   }
   
   .mi-perfil-MIS-DATOS .text-wrapper-6 {
     top: 328px;
-    left: 49px;
+    left: 17px;
     position: absolute;
     width: 202px;
     font-family: 'Kiwi Maru', sans-serif;
@@ -166,6 +173,8 @@
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    background-color: #ffffff00;
+    border: 0px;
   }
   
   .mi-perfil-MIS-DATOS .vector {
@@ -199,6 +208,9 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
   
   .mi-perfil-MIS-DATOS .text-wrapper-8 {
@@ -223,6 +235,9 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
   
   .mi-perfil-MIS-DATOS .rectangle-7 {
@@ -234,6 +249,9 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
   
   .mi-perfil-MIS-DATOS .rectangle-8 {
@@ -245,14 +263,18 @@
     background-color: #e8e8e8;
     border: 2px solid;
     border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
   
   .mi-perfil-MIS-DATOS .image {
     position: absolute;
-    width: 63px;
-    height: 42px;
+    width: 50px;
+    height: 40px;
     top: 19px;
     left: 933px;
+    cursor: pointer;
   }
   
   .mi-perfil-MIS-DATOS .text-wrapper-9 {
@@ -313,7 +335,7 @@
   
   .mi-perfil-MIS-DATOS .text-wrapper-10 {
     top: 231px;
-    left: 51px;
+    left: 3px;
     position: absolute;
     width: 202px;
     font-family: 'Kiwi Maru', sans-serif;
@@ -322,13 +344,24 @@
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    background-color: #ffffff00;
+    border: 0px;
   }
   
   .mi-perfil-MIS-DATOS .image-3 {
     position: absolute;
     width: 29px;
     height: 29px;
-    top: 529px;
-    left: 502px;
+    top: 3px;
+    left: 10px;
   }
   
+  .custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+}

@@ -75,7 +75,7 @@
     position: absolute;
     width: 207px;
     height: 37px;
-    top: 314px;
+    top: 248px;
     left: 22px;
     background-color: #d4e4d5;
     border-radius: 5px;
@@ -156,20 +156,6 @@
     line-height: normal;
   }
   
-  .suscripciones .text-wrapper-6 {
-    width: 165px;
-    top: 307px;
-    left: 43px;
-    font-size: 20px;
-    position: absolute;
-    height: 38px;
-    font-family: 'Kiwi Maru', sans-serif;
-    font-weight: 500;
-    color: #404040;
-    text-align: center;
-    letter-spacing: 0;
-    line-height: normal;
-  }
   
   .suscripciones .rectangle-4 {
     position: absolute;
@@ -202,11 +188,11 @@
     position: absolute;
     width: 126px;
     top: 128px;
-    left: 1240px;
+    right: 105px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
-    font-size: 20px;
+    font-size: 16px;
     letter-spacing: 0;
     line-height: normal;
   }
@@ -223,20 +209,42 @@
     position: absolute;
     width: 4px;
     height: 38px;
-    top: 314px;
+    top: 248px;
     left: 1px;
   }
   
+  .custom-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+  .usuario-button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: none;
+    cursor: pointer;
+}
+
   .suscripciones .rectangle-5 {
     position: absolute;
     width: 1110px;
     height: 48px;
     top: 252px;
     left: 273px;
-    background-color: #d9d9d9;
+    background-color: #F3FAF3;
     border: 1px solid;
-    border-color: #000000;
-    mix-blend-mode: soft-light;
+    border-color: #F3FAF3;
+    z-index: 1;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
   
   .suscripciones .rectangle-6 {
@@ -245,10 +253,13 @@
     height: 48px;
     top: 309px;
     left: 273px;
-    background-color: #d9d9d9;
+    background-color: #F3FAF3;
     border: 1px solid;
-    border-color: #000000;
-    mix-blend-mode: soft-light;
+    border-color: #F3FAF3;
+    z-index: 1;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
   
   .suscripciones .rectangle-7 {
@@ -257,11 +268,16 @@
     height: 48px;
     top: 366px;
     left: 273px;
-    background-color: #d9d9d9;
+    background-color: #F3FAF3;
     border: 1px solid;
-    border-color: #000000;
-    mix-blend-mode: soft-light;
+    border-color: #F3FAF3;
+    z-index: 1;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
   }
+
+  
   
   .suscripciones .text-wrapper-9 {
     position: absolute;
@@ -387,14 +403,26 @@
   
   .suscripciones .text-wrapper-15 {
     position: absolute;
-    width: 51px;
-    top: 31px;
-    left: 1323px;
+    height: 92px;
+    width: 156px;
+    top: -1px;
+    left: 1253px;
     font-family: 'Kiwi Maru', sans-serif;
     font-weight: 500;
     color: #000000;
     font-size: 20px;
     letter-spacing: 0;
     line-height: normal;
+    background-color: #a7c6aa;
+    border: 2px solid;
+    border-color: #000000;
+    cursor: pointer;
   }
-  
+
+  .registrar-gasto .overlap-5 {
+    position: absolute;
+    width: 181px;
+    height: 72px;
+    top: 125px;
+    left: 1213px;
+  }
