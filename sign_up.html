@@ -37,12 +37,20 @@
             <img class="image-2" src="images/google_logo.png" />
           </button>
           
-          <button class="div-wrapper">
+          <a href="registrar_gasto.html" class="div-wrapper">
             <div class="text-wrapper-5">Registrarse</div>
-          </button>
+        </a>
+        
+        <a href="log_in.html" class="text-wrapper-6">Inicia sesión ahora</a>
+        
+          <input type="image" class="image-3" src="images/close.png" onclick="closeButtonClicked()"  />
 
-          <button class="text-wrapper-6">Inicia sesión ahora</button>
-          <input type="image" class="image-3" src="images/close.png" />
+          <script>
+          function closeButtonClicked() {
+            window.location.href = 'index.html'; // Redirige al index
+          }
+          </script>
+
           <div class="text-wrapper-7">Registro</div>
           <div class="group">
             <div class="overlap-group-2">
@@ -59,9 +67,9 @@
           <div class="overlap-6">
             <input type="text" class="text-wrapper-10" placeholder="Correo Electrónico"></div>
           <div class="overlap-7">
-            <input type="text" class="text-wrapper-10" placeholder="Contraseña"></div>
+            <input type="password" class="text-wrapper-10" placeholder="Contraseña"></div>
           <div class="overlap-8">
-            <input type="text" class="text-wrapper-11" placeholder="Confirma la contraseña"></div>
+            <input type="password" class="text-wrapper-11" placeholder="Confirma la contraseña"></div>
         </div>
       </div>
     </div>

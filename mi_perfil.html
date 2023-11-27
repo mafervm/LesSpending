@@ -68,6 +68,30 @@
             <div class="text-wrapper">Editar datos</div>
             <img class="image-3" src="images/edit.png" />
         </button>
+
+
+        <script>
+          // Elementos de los botones
+          const misGastosButton = document.querySelector('.text-wrapper-5');
+          const misIngresosButton = document.querySelector('.text-wrapper-6');
+          const cerrarButton = document.querySelector('.image');
+      
+          // Agrega un evento de clic para cada botón
+          misGastosButton.addEventListener('click', function() {
+              // Redirige a mis_gastos.html
+              window.location.href = 'mis_gastos.html';
+          });
+      
+          misIngresosButton.addEventListener('click', function() {
+              // Redirige a mis_ingresos.html
+              window.location.href = 'mis_ingresos.html';
+          });
+      
+          cerrarButton.addEventListener('click', function() {
+              // Redirige a registrar_gasto.html
+              window.location.href = 'registrar_gasto.html';
+          });
+      </script>
         
         </div>
       </div>

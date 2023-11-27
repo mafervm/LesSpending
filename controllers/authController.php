@@ -1,107 +1,120 @@
 <?php
-// Crear sesiones
+// Inicia la sesión
 session_start();
 
-// Conexión a la base de datos
+// Crea la conexión a la base de datos
 require 'includes/config/database.php';
 $db = conectardb();
 
-// Variables
-$errors = array();
-$email = "";
-$name = "";
-$lastname = "";
-$idiest = "";
-$password = "";
+// Cuando el usuario oprima el botón registrarse
+if(isset($_POST['signup'])){
+    $nombre = mysqli_real_escape_string( $db, $_POST['nombre'] );
+    $apellido = mysqli_real_escape_string( $db, $_POST['apellido'] );
+    $correo = mysqli_real_escape_string( $db, $_POST['correo'] );
+    $contraseña = mysqli_real_escape_string( $db, $_POST['contraseña'] );
+    $telefono = mysqli_real_escape_string( $db, $_POST['telefono'] );
+    $fecha_nacimiento = mysqli_real_escape_string( $db, $_POST['fecha_nacimiento'] );
 
-// Cuando el usuario oprime el botón registrarse
-if (isset($_POST['signup'])) {
-    // ... (tu código actual)
+        //Validaciones
+        if(!filter_var($email, FILTER_VALIDATE_EMAIL) || empty($email)) {
+            $errors['invalidEmail'] = "Email no válido";
+        }
+        if(empty($name)){
+            $errors['invalidName'] = "Ingresa tu nombre";
+        }
+        if(empty($lastname)){
+            $errors['invalidLastName'] = "Ingresa tu apellido";
+        }
+        if(empty($password)){
+            $errors['password'] = "Crea una contraseña";
+        }
 
-    // Lees email y ID-IEST
-    $emailQuery = "SELECT * FROM Usuario WHERE Correo = '$email' LIMIT 1";
-    $emailResult = mysqli_query($db, $emailQuery);
+        //Leer email
+        $emailQuery = "SELECT * FROM Usuario WHERE correo = '$correo' LIMIT 1";
+        $emailResult = mysqli_query($db, $emailQuery);
 
-    $idQuery = "SELECT * FROM Usuario WHERE id = '$idiest' LIMIT 1";
-    $idResult = mysqli_query($db, $idQuery);
+        //Verificar si el correo ya existe
+        if(($emailResult->num_rows) > 0){
+            $errors['emailExists'] = "El email ingresado ya existe";
+        }
 
-    // Verificar si el correo ya existe
-    if (mysqli_num_rows($emailResult) > 0) {
-        $errors['emailExists'] = "El correo ingresado ya existe";
-    }
 
-    // Verificar si el ID-IEST ya existe
-    if (mysqli_num_rows($idResult) > 0) {
-        $errors['idIestExists'] = "El ID IEST ingresado ya existe";
-    }
+        //Si no hay errores
+        if(count($errors) === 0){
+            //Encriptamos contraseña
+            $password = password_hash($password, PASSWORD_DEFAULT);
 
-    // Si no hay errores
-    if (count($errors) === 0) {
-        // Encriptar contraseña
-        $password = password_hash($password, PASSWORD_DEFAULT);
-        $userType = 0;
-        $status = 'Activo';
+            //Insertamos el registro
+            $sql = "INSERT into Usuario (nombre, apellido, email, password, tipo, estado) 
+            VALUES ('$nombre', '$apellido', '$correo', '$contraseña', '$telefono', '$fecha_nacimiento')";
+            $insertUser = mysqli_query($db, $sql);
+            
+            if($insertUser){
+                //Asignamos variables de sesión
+                $_SESSION['nombre'] = $nombre;
+                $_SESSION['apellido'] = $apellido;
+                $_SESSION['email'] = $correo;
 
-        // Insertar el registro
-        $sql = "INSERT into Usuario (id, nombre, apellido, Correo, contraseña, tipo, estado) 
-        VALUES ('$idiest', '$name', '$lastname','$email', '$password', '$userType', '$status')";
-        $insertUser = mysqli_query($db, $sql);
-
-        if ($insertUser) {
-            // Asignar variables de sesión
-            $_SESSION['id'] = $idiest;
-            $_SESSION['nombre'] = $name;
-            $_SESSION['apellido'] = $lastname;
-            $_SESSION['email'] = $email;
-            $_SESSION['estado'] = $status;
-
-            // Redireccionar a menu
-            header('Location: menu.php');
-            exit();
+                //Reedireccionamos a menu
+                header('Location: registrar_gasto.html');
+                exit();
+            }
         }
     }
-}
 
-// Cuando el usuario oprime el botón iniciar sesión
-if (isset($_POST['login'])) {
-    // ... (tu código actual)
+    //Cuando el usuario oprima el botón iniciar sesión
+    if(isset($_POST['login'])){
+        $correo = $_POST['correo'];
+        $contraseña = $_POST['contraseña'];
 
-    // Leer email
-    $emailQuery = "SELECT * FROM Usuario WHERE Correo = '$email' LIMIT 1";
-    $emailResult = mysqli_query($db, $emailQuery);
-
-    // Verificar si el email está registrado
-    if (mysqli_num_rows($emailResult) > 0) {
-        // Obtener fila del usuario
-        $user = mysqli_fetch_assoc($emailResult);
-
-        // Verificar si la contraseña coincide
-        if (password_verify($password, $user['contraseña'])) {
-            $_SESSION['id'] = $user['id'];
-            $_SESSION['nombre'] = $user['nombre'];
-            $_SESSION['apellido'] = $user['apellido'];
-            $_SESSION['email'] = $user['Correo'];
-            $_SESSION['estado'] = $user['estado'];
-
-            // Redireccionar a menu
-            header('Location: menu.php');
-            exit();
-        } else {
-            $errors['password_fail'] = "Contraseña incorrecta";
+        //Validations
+        if(!filter_var($email, FILTER_VALIDATE_EMAIL) || empty($email)){
+            $errors['invalidEmail'] = "Email no válido";
         }
-    } else {
-        $errors['email_fail'] = "Correo incorrecto";
-    }
-}
+        if(empty($password)){
+            $errors['password'] = "Ingresa tu contraseña";
+        }
 
-// Cerrar sesión de usuario
-if (isset($_GET['logout'])) {
-    session_destroy();
-    unset($_SESSION['id']);
-    unset($_SESSION['nombre']);
-    unset($_SESSION['apellido']);
-    unset($_SESSION['email']);
-    header('Location: index.php');
-    exit();
-}
+        //Si no hay errores
+        if(count($errors) === 0){
+
+            //Leer email
+            $emailQuery = "SELECT * FROM Usuarios WHERE correo = '$correo' LIMIT 1";
+            $emailResult = mysqli_query($db, $emailQuery);
+            
+            //Verificar si el email esta registrado
+            if(($emailResult->num_rows) > 0){
+
+                //Obtenemos fila del usuario
+                $user = mysqli_fetch_assoc($emailResult);
+
+                //Verificamos si la contraseña coincide
+                if(password_verify($password, $user['password'])){
+                    $_SESSION['nombre'] = $user['nombre'];
+                    $_SESSION['apellido'] = $user['apellido'];
+                    $_SESSION['email'] = $user['email'];
+
+                    //Reedireccionamos a menu
+                    header('Location: registrar_gasto.html');
+                    exit();
+                    
+                }else{
+                    $errors['password_fail'] = "Contraseña incorrecta";
+                }
+            }else{
+                $errors['email_fail'] = "email incorrecto";
+            }
+        }
+    }
+
+
+    //Cerrar sesión de usuario
+    if(isset($_GET['logout'])){
+        session_destroy();
+        unset($_SESSION['nombre']);
+        unset($_SESSION['apellido']);
+        unset($_SESSION['email']);
+        header('Location: index.php');
+        exit();
+    }
 ?>

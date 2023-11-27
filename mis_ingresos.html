@@ -77,6 +77,29 @@
         </div>
       </div>
     </div>
+    <script>
+      // Obtén los elementos de los botones
+      const misDatosButton = document.querySelector('.div');
+      const misGastosButton = document.querySelector('.text-wrapper-7');
+      const cerrarButton = document.querySelector('.image');
+  
+      // Agrega un evento de clic para cada botón
+      misDatosButton.addEventListener('click', function() {
+          // Redirige a mi_perfil.html
+          window.location.href = 'mi_perfil.html';
+      });
+  
+      misGastosButton.addEventListener('click', function() {
+          // Redirige a mis_gastos.html
+          window.location.href = 'mis_gastos.html';
+      });
+  
+      cerrarButton.addEventListener('click', function() {
+          // Redirige a registrar_gasto.html
+          window.location.href = 'registrar_gasto.html';
+      });
+  </script>
+  
   </body>
 </html>
 

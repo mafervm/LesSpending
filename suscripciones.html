@@ -37,9 +37,15 @@
             <div class="rectangle-2"></div>
             <div class="rectangle-3"></div>
 
-            <div class="usuario-button">
+            <div class="usuario-button" onclick="redirectToUsuarios()">
               <div class="text-wrapper">Usuarios</div>
             </div>
+            <script>
+              function redirectToUsuarios() {
+                // Redirige a usuarios.html
+                window.location.href = 'usuarios.html';
+              }
+            </script>
 
             <button class="custom-button">
               <div class="rectangle-3"></div>
@@ -68,8 +74,14 @@
             <img class="element" src="images/logo.png" />
       
           </div>
-          <button class="text-wrapper-15">Salir</button>
+          <button class="text-wrapper-15" onclick="redirectToLogInAdmin()">Salir</button>
         </div>
+        <script>
+          function redirectToLogInAdmin() {
+            // Redirige a log_in_admin.html
+            window.location.href = 'log_in_admin.html';
+          }
+        </script>
       </div>
     </div>
   </body>
