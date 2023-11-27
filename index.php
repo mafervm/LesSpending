@@ -1,3 +1,7 @@
+<?php 
+    require_once 'controllers/authController.php';
+?>
+
 <!DOCTYPE html>
 <html>
   <head>

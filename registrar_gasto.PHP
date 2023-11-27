@@ -1,3 +1,15 @@
+<?php 
+    // Importar controlador de autenticación
+    require_once 'controllers/authController.php';
+
+    // Verificar si existe una sesión iniciada
+    if (!isset($_SESSION['id'])) {
+        header('Location: index.php');
+        exit();
+    }
+?>
+
+
 <!DOCTYPE html>
 <html>
 
@@ -141,7 +153,7 @@
                   <div class="overlap-group"><div class="text-wrapper-18">Ingresa el monto:</div></div>
                 </div>
               
-                <input type="text" class="nombre" />
+                <input type="text" class="rectangle-20" />
                 
                 <button class="rectangle-21" id="btnAceptar">
                   <div class="text-wrapper-22">Aceptar</div>
@@ -266,8 +278,7 @@
                 function reloadPage() {
                   // Recarga la página actual
                   location.reload();
-                  }
-                </script>
+                  }</script>
 
               </div>
 

@@ -48,6 +48,22 @@ INSERT INTO Tipo_Ingreso (id, tipo_ingreso) VALUES
 (5, 'Inversión'),
 (6, 'Pensión');
 
+CREATE TABLE Autenticacion (
+    id INT NOT NULL PRIMARY KEY,
+    contraseña VARCHAR(255)
+);
+
+CREATE TABLE Suscripcion (
+    id INT NOT NULL PRIMARY KEY,
+    nombre VARCHAR(255),
+    pago_suscripcion DECIMAL(10, 2),
+    vigencia DATE
+);
+
+INSERT INTO Suscripcion (id, nombre, pago_suscripcion, vigencia) VALUES 
+(1, 'Básico', 0.00, '2024-12-31'),
+(2, 'Premium', 40.00, '2023-12-31'),
+(3, 'Ultra', 130.00, '2023-11-30');
 
 CREATE TABLE Usuario (
     id INT NOT NULL,
@@ -101,20 +117,3 @@ CREATE TABLE Operacion (
     FOREIGN KEY (monto) REFERENCES Monto(id)
 );
 
-CREATE TABLE Autenticacion (
-    id INT NOT NULL PRIMARY KEY,
-    contraseña VARCHAR(255)
-);
-
-
-CREATE TABLE Suscripcion (
-    id INT NOT NULL PRIMARY KEY,
-    nombre VARCHAR(255),
-    pago_suscripcion DECIMAL(10, 2),
-    vigencia DATE
-);
-
-INSERT INTO Suscripcion (id, nombre, pago_suscripcion, vigencia) VALUES 
-(1, 'Básico', 0.00, '2024-12-31'),
-(2, 'Premium', 40.00, '2023-12-31'),
-(3, 'Ultra', 130.00, '2023-11-30');
