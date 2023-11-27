@@ -1,3 +1,20 @@
+<?php 
+    //Importar controlador de autenticación
+    require_once 'admin/controllers/authController.php';
+
+    //Verificar si existe una sesión iniciada
+    if(!$_SESSION['admin']){
+        header('Location: index.php');
+        exit();
+    }
+
+    require_once 'controllers/panelController.php';
+    
+    //Fecha actual
+    $today = getdate();
+    $now = date('H:i',time() - 21600);
+?>
+
 <!DOCTYPE html>
 <html>
   <head>

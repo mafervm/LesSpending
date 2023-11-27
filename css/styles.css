@@ -182,7 +182,7 @@
 
 .HOME-lesspending .overlap-2 {
   position: absolute;
-  width: 1440px;
+  width: 1470px;
   height: 201px;
   top: 2536px;
   left: 50%;
@@ -791,4 +791,8 @@
   text-align: center;
   letter-spacing: 0;
   line-height: normal;
+}
+
+.special-button:hover {
+  background-color: #889dceab;
 }

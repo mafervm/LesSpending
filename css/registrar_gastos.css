@@ -508,6 +508,17 @@
     border-color: #000000;
   }
 
+  .registrar-gasto .rectangle-26 {
+    position: absolute;
+    width: 378px;
+    height: 45px;
+    top: 122px;
+    left: 250px;
+    background-color: #f5df71;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
   .registrar-gasto .text-wrapper-14 {
     position: absolute;
     width: 88px;
@@ -520,6 +531,7 @@
     letter-spacing: 0;
     line-height: normal;
   }
+
   .registrar-gasto .element-13 {
     position: absolute;
     width: 89px;
@@ -529,6 +541,17 @@
   }
 
   .registrar-gasto .rectangle-17 {
+    position: absolute;
+    width: 378px;
+    height: 45px;
+    top: 190px;
+    left: 250px;
+    background-color: #7fb7c7;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
+  .registrar-gasto .rectangle-27 {
     position: absolute;
     width: 378px;
     height: 45px;
@@ -571,6 +594,17 @@
     border-color: #000000;
   }
 
+  .registrar-gasto .rectangle-28 {
+    position: absolute;
+    width: 378px;
+    height: 45px;
+    top: 258px;
+    left: 250px;
+    background-color: #93c798;
+    border: 2px solid;
+    border-color: #000000;
+  }
+
   .registrar-gasto .text-wrapper-16 {
     width: 180px;
     top: 3px;
@@ -592,6 +626,16 @@
   }
   
   .registrar-gasto .rectangle-15 {
+    position: absolute;
+    width: 378px;
+    height: 45px;
+    top: 326px;
+    left: 250px;
+    background-color: #e0756d;
+    border: 2px solid;
+    border-color: #000000;
+  }
+  .registrar-gasto .rectangle-25 {
     position: absolute;
     width: 378px;
     height: 45px;
@@ -692,7 +736,25 @@
 
   
   
-  .registrar-gasto .rectangle-20 {
+  .registrar-gasto .nombre {
+    position: absolute;
+    width: 200px;
+    height: 45px;
+    top: 118px;
+    left: 845px;
+    background-color: #b3bfc7;
+    border: 2px solid;
+    border-color: #000000;
+    font-family: 'Kiwi Maru', sans-serif;
+    font-weight: 500;
+    color: #000000;
+    font-size: 20px;
+    letter-spacing: 0;
+    line-height: normal;
+  }
+
+    
+  .registrar-gasto .ingreso {
     position: absolute;
     width: 200px;
     height: 45px;
@@ -1066,3 +1128,6 @@
   left: 0;
 }
 
+.seleccionado {
+  background-color: #e7ae33;
+}

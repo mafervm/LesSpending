@@ -40,22 +40,22 @@
           <div class="group">
             <div class="overlap-group">
 
-              <button class="rectangle">
+              <button class="rectangle" onclick="openAbout()">
                 <div class="text-wrapper">Acerca de</div>
                 <img class="image" src="images/flecha.png" />
             </button>
             
-              <button class="rectangle-2">
+              <button class="rectangle-2" onclick="openAboutUs()">
                 <div class="text-wrapper-2">Conócenos</div>
                 <img class="img" src="images/flecha.png" />
             </button>
 
-              <button class="rectangle-3">
+              <button class="rectangle-3" onclick="openPackages()">
                 <div class="text-wrapper-4">Paquetes</div>
                 <img class="image-3" src="images/flecha.png" />
             </button>
 
-              <button class="rectangle-4">
+              <button class="rectangle-4" onclick="openContact()">
                 <div class="text-wrapper-3">Contáctanos</div>
                 <img class="image-2" src="images/flecha.png" />
             </button>
@@ -64,7 +64,7 @@
           </div>
       
         </div>
-        <div class="overlap-2">
+        <div class="overlap-2 contacto">
           <div class="text-wrapper-5">Contacto</div>
           <p class="lesspending-gmail">
             <span class="span">lesspending</span>
@@ -73,51 +73,51 @@
             >
           </p>
           <p class="p">©2023 LesSpending. All rights reserved.</p>
-          <img class="element" src="images/logo.png" />
+          <img class="element" src="images/logo.png" onclick="scrollToTop()" style="cursor: pointer;" />
         </div>
         <img class="line-2" src="images/linea_grande.png" />
         <img class="line-3" src="images/linea_grande.png" />
         <div class="overlap-3">
           <div class="rectangle-5"></div>
           <img class="line-4" src="images/linea_grande.png" />
-          <img class="element-2" src="images/logo.png" />
-          <button class="text-wrapper-6">Iniciar Sesión</button>
-          <button class="text-wrapper-7">Registrarse</button>
+          <img class="element-2" src="images/logo.png" onclick="reloadPage()"/>
+          <button class="text-wrapper-6" onclick="openLogin()">Iniciar Sesión</button>
+          <button class="text-wrapper-7" onclick="openSignUp()">Registrarse</button>
           <img class="line-5" src="images/linea_vertical.png" />
           <img class="line-6" src="images/linea_vertical.png" />
           <img class="line-7" src="images/linea_vertical.png" />
         </div>
         <div class="overlap-4">
-          <button class="rectangle-6">
+          <button class="rectangle-6" onclick="openLogin()">
             <div class="text-wrapper-8">¡Inicia ahora!</div>
-        </button>
+          </button>
         </div>
         <div class="text-wrapper-9">¡Hola! Somos LesSpending.</div>
         <p class="text-wrapper-13">Un sitio web en el que podrás llevar un control de gastos diarios.</p>
 
-        <div class="text-wrapper-10">¿Cómo funciona?</div>
+        <div class="text-wrapper-10 como-funciona">¿Cómo funciona?</div>
         <p class="text-wrapper-14">
           Al iniciar sesión, podrás visualizar las opciones de gastos e ingresos,
           así mismo, podrás seleccionar el tipo de pago y el monto que se realizó.
           En tu perfil visualizarás las gráficas de tus datos añadidos de gastos e ingresos.
         </p>
 
-        <div class="text-wrapper-11">¿Quiénes somos?</div>
+        <div class="text-wrapper-11 quienes-somos">¿Quiénes somos?</div>
         <p class="text-wrapper-15">
           Somos un duo de estudiantes que desean llevar un control de nuestros gastos diarios, y así mismo, 
           realizar un proyecto universitario que nos brindará experiencia para el mundo laboral.
         </p>
 
-        <div class="text-wrapper-12">Suscripciones</div>
+        <div class="text-wrapper-12 suscripciones">Suscripciones</div>
 
-        <button class="overlap-5">
+        <button class="overlap-5 special-button" onclick="openLogin()">
           <div class="text-wrapper-16">Paquete Básico</div>
           <div class="text-wrapper-17">$0</div>
           <div class="text-wrapper-18">Registro de gastos/ingresos</div>
           <div class="text-wrapper-19">Visualización de gráficas</div>
       </button>
 
-        <button class="overlap-6">
+        <button class="overlap-6 special-button" onclick="openLogin()">
           <div class="text-wrapper-20">Paquete Ultra</div>
           <div class="text-wrapper-21">$130.00</div>
           <div class="text-wrapper-22">Registro de gastos/ingresos</div>
@@ -126,7 +126,7 @@
           <div class="text-wrapper-25">Asesor</div>
         </button>
 
-        <button class="overlap-7">
+        <button class="overlap-7 special-button" onclick="openLogin()">
           <div class="text-wrapper-26">Paquete Premium</div>
           <div class="text-wrapper-27">$40.00</div>
           <div class="text-wrapper-28">Registro de gastos/ingresos</div>
@@ -138,6 +138,60 @@
         <img class="captura-de-pantalla-2" src="images/como_funciona.png" />
         <img class="captura-de-pantalla-3" src="images/quienes_somos.png" />
         <img class="rectangle-7" src="images/fonddd.png" />
+
+      <script>
+
+        function reloadPage() {
+          window.location.reload();
+        }
+
+        document.addEventListener("DOMContentLoaded", function() {
+          function reloadPage() {
+            window.location.reload();
+          }
+        });
+
+        function openLogin() {
+          window.location.href = 'log_in.html'; // Nos envía a la pestaña de incio de sesión
+        }
+
+        function openSignUp() {
+          window.location.href = 'sign_up.html'; // Nos envía a la pestaña de registrarse
+        }
+
+        function openAbout() {
+          scrollToSection('.como-funciona'); // Nos envía al apartado de ¿Cómo funciona?
+        }
+
+        function openAboutUs() {
+          scrollToSection('.quienes-somos');  // Nos envía al apartado de ¿Quienes somos?
+        }
+
+        function openPackages() {
+          scrollToSection('.suscripciones'); // Nos envía al apartado de Suscripciones
+        }
+
+        function openContact() {
+          scrollToSection('.contacto'); // Nos envía al apartado de Contactanos
+        }
+
+        function scrollToSection(selector) {
+          document.querySelector(selector).scrollIntoView({
+            behavior: 'smooth'
+          });   
+        }
+
+        function scrollToTop() {
+          window.scrollTo({ top: 0, behavior: 'smooth' });
+        }     // Nos envía al inicio
+
+        document.addEventListener("DOMContentLoaded", function() {
+          function scrollToTop() {
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+          }
+        });
+
+      </script>
       </div>
     </div>
   </body>

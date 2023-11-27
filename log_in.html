@@ -8,6 +8,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Kiwi+Maru:wght@300;400;500&amp;display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&amp;display=swap"  data-tag="font">
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
     <title>Iniciar sesión</title>
   </head>
   <body>
@@ -33,9 +34,10 @@
           <button class="overlap-3">
             <div class="text-wrapper-3">Continúa con Google</div>
             <img class="image-2" src="images/google_logo.png" />
+            <div class="g-signin2" data-onsuccess="onSignIn"></div>
           </button>
 
-          <input type="image" class="image-3" src="images/close.png" />
+          <input type="image" class="image-3" src="images/close.png" onclick="closeButtonClicked()" />
           <div class="text-wrapper-4">Inicio de sesión</div>
           <div class="group">
             <div class="overlap-group-2">
@@ -44,13 +46,43 @@
               <div class="text-wrapper-5">ó</div>
             </div>
           </div>
-          <button class="text-wrapper-6">Registrate ahora</button>
+          <button class="text-wrapper-6" onclick="openRegister()">Registrate ahora</button>
           <img class="image-4" src="images/hola_less.png" />
           <button class="div-wrapper">
-            <div class="text-wrapper-7">Iniciar sesión</div>
+            <div class="text-wrapper-7" onclick="openHome()">Iniciar sesión</div>
           </button>          
         </div>
       </div>
     </div>
+    <script>
+      function openRegister() {
+        window.location.href = 'sign_up.html';  // Redirigir a sign up
+      }
+  
+      function openHome() {
+        window.location.href = 'registrar_gasto.html';  // Redirigir a la página principal 
+      }
+
+      function closeButtonClicked() {
+        window.location.href = 'index.html'; // Redirige al index
+      }
+
+   
+      // Función llamada cuando se realiza el inicio de sesión con Google
+      function onSignIn(googleUser) {
+        // Obtén el perfil básico del usuario
+        var profile = googleUser.getBasicProfile();
+
+        console.log('ID: ' + profile.getId());
+        console.log('Name: ' + profile.getName());
+        console.log('Image URL: ' + profile.getImageUrl());
+        console.log('Email: ' + profile.getEmail());
+
+        // Redirige a tu página principal después de iniciar sesión
+        window.location.href = 'registrar_gasto.html';
+      }
+
+
+    </script>
   </body>
 </html>
